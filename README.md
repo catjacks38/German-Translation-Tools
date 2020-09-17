@@ -10,6 +10,9 @@ The translator can be used to translate a list of German words, or sentances in 
 # How to format the world list
 In the text file place each word or sentance you want to translate on a separate line. You can check the `exampleWordList.txt` file for an example.
 
+# The executable version
+The executable has the same argument as the python script. There is only a Windows build at the moment, so sorry Linux users. To get an executable for Linux, you are going to need to compile it from the source code. I suggest using pyinstaller to create an executable-It's what I used to make the executable for Windows.
+
 # TODO
 1. Add a script that can find all of the German words in a document, and translate them.
-2. Make the translator an executable for Windows and Linux
+2. Make the translator an executable for Linux
